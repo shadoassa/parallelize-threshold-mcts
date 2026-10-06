@@ -61,6 +61,8 @@ WeightType weight_otherwise = WeightType::UNIFORM;
 #include <set>
 #include <unordered_set>
 
+#include <mpi.h>
+
 #include <boost/random/beta_distribution.hpp>
 
 #include "lib_output.h"
